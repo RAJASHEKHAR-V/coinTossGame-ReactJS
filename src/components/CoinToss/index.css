@@ -1,0 +1,146 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-card {
+  width: 60%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-heading {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-weight: 600;
+}
+
+.toss-indication {
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 800;
+}
+
+.head-image {
+  width: 20%;
+}
+
+.tail-image {
+  width: 20%;
+}
+
+.button {
+  min-height: 25px;
+  min-width: 80px;
+  max-width: 100px;
+  max-height: 35px;
+  color: #a35200;
+  background-color: #f9d423;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.toss-result-card {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+
+.heads {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+
+.tails {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .toss-card {
+    width: 90%;
+  }
+
+  .game-heading {
+    font-size: 30px;
+  }
+
+  .toss-indication {
+    font-size: 18px;
+  }
+
+  .head-image {
+    width: 25%;
+  }
+
+  .tail-image {
+    width: 25%;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .toss-result-card {
+    width: 60%;
+  }
+
+  .total {
+    font-size: 12px;
+  }
+
+  .heads {
+    font-size: 12px;
+  }
+
+  .tails {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-heading {
+    font-size: 45px;
+  }
+
+  .toss-indication {
+    font-size: 25px;
+  }
+
+  .button {
+    font-size: 15px;
+  }
+
+  .total {
+    font-size: 15px;
+  }
+
+  .heads {
+    font-size: 15px;
+  }
+
+  .tails {
+    font-size: 15px;
+  }
+}
